@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-		
-		<h1>CHAL GAYA</h1>
-		<a href="logout">(x) Logout Now</a>
-
+	<h1>Logout Home</h1><br><br>
+	<a href="/">---> go to home</a>
 </body>
 </html>
