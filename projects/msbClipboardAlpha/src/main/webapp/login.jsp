@@ -9,7 +9,8 @@
 <body>
 	<h1>Login</h1>
 	${SPRING_SECURITY_LAST_EXCEPTION.message}
-	<br><br>
+	<br>
+	<br>
 	<form action="login" method='POST'>
 
 		<table>
@@ -22,6 +23,10 @@
 				<td><input type='password' name='password' /></td>
 			</tr>
 			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td></td>
 				<td><input name="submit" type="submit" value="submit" /></td>
 			</tr>
 		</table>

@@ -1,4 +1,4 @@
-package com.msb.msbclipboardAlpha;
+package com.msb.msbclipboardAlpha.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -32,7 +32,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 			.csrf().disable()
-			.authorizeRequests().antMatchers("/login").permitAll()
+			.authorizeRequests().antMatchers("/login").permitAll()	//TODO: add here- ,"/register"- to allow register page
 			.anyRequest().authenticated()
 			.and()
 			.formLogin()

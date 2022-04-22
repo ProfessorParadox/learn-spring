@@ -1,4 +1,4 @@
-package com.msb.msbclipboardAlpha;
+package com.msb.msbclipboardAlpha.models;
 
 import java.util.Collection;
 import java.util.Collections;
